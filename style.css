@@ -110,9 +110,11 @@ border-radius: 5vmin;
     position:absolute;
     margin-left: 42vmin;
     font-size: 4vmin;
-    visibility: hidden;
+
 }
 
 .icon:hover {
     font-size:5vmin;
+    transition:transform 0.5s ease ;
+    transform:rotateY(360deg) ;
 }

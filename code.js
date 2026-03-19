@@ -25,7 +25,7 @@ const task1msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task1.innerText = inputValue;
+    Task1.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
 }
 }
 
@@ -34,28 +34,28 @@ const task2msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task2.innerText = inputValue;}
+    Task2.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
 }
 
 const task3msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task3.innerText = inputValue;}
+    Task3.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
 }
 
 const task4msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task4.innerText = inputValue;}
+    Task4.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
 }
 
 const task5msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task5.innerText = inputValue;}
+    Task5.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
 }
 
 
