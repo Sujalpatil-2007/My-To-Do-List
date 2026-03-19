@@ -98,9 +98,21 @@ border-radius: 5vmin;
     cursor:pointer;
 }
 
-#icon {
+.taskBox:hover  {
+
+    background-color: #ffe680;
+
+
+}
+
+.icon {
     color: blue;
     position:absolute;
     margin-left: 42vmin;
     font-size: 4vmin;
+    visibility: hidden;
+}
+
+.icon:hover {
+    font-size:5vmin;
 }
