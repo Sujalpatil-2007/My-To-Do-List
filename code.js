@@ -5,7 +5,7 @@ let Task2 = document.querySelector(".Task2");
 let Task3 = document.querySelector(".Task3");
 let Task4 = document.querySelector(".Task4");
 let Task5 = document.querySelector(".Task5");
-let icons = document.querySelectorAll(".icon");
+
 
 
 
@@ -26,6 +26,11 @@ const task1msg = (inputValue) => {
         console.log("Enter some thing");
     }else{
     Task1.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
+    let icon = Task1.querySelector(".icon");
+    icon.addEventListener("click", () => {
+        alert("Task 1  is Done.");
+        console.log("cilck icon");
+    })
 }
 }
 
@@ -34,29 +39,57 @@ const task2msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task2.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
+    Task2.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
+    let icon = Task2.querySelector(".icon");
+    icon.addEventListener("click", () => {
+        alert("Task 2 is Done.");
+        console.log("cilck icon");
+    })
+}
 }
 
 const task3msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task3.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
+    Task3.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
+    let icon = Task3.querySelector(".icon");
+    icon.addEventListener("click", () => {
+        alert("Task 3 is Done.");
+        console.log("cilck icon");
+    })
+}
 }
 
 const task4msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task4.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
+    Task4.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
+    let icon = Task4.querySelector(".icon");
+    icon.addEventListener("click", () => {
+    alert("Task 4 is Done.");
+    console.log("cilck icon");
+    })
+
+}
 }
 
 const task5msg = (inputValue) => {
     if (inputValue === "") {
         console.log("Enter some thing");
     }else{
-    Task5.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;}
+    Task5.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
+    let icon = Task5.querySelector(".icon");
+    icon.addEventListener("click", () => {
+    alert("Task 5 is Done.");
+    console.log("cilck icon");
+    })
+
 }
+}
+
+
 
 
 
@@ -80,12 +113,8 @@ addBtn.addEventListener("click", function() {
     reset();
   });
 
-icons.forEach(icon => {
-    icon.addEventListener("click", () => {
-        console.log("icon was clicked!");
-        
-    })
+
     
-})
+
 
 
