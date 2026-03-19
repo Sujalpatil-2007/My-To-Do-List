@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.heading {
+    font-size: 5vmin;
+    text-align: center;
+    background-color:#547792;
+}
+
+.mainbody {
+    background-color: #FFC570;
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+background-color: #EFD2B0;
+height: 80vmin;
+width: 70vmin;
+border-radius: 5vmin;
+}
+
+.addlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vmin;
+    gap: 2vmin;
+    margin-top: 2vmin;
+}
+
+.addlist input  {
+    width: 70%;
+    height: 5vmin;
+    border-radius: 1vmin;
+    
+
+}
+.addlist button {
+    width: 20%;
+    height: 5vmin;
+    border-radius: 5vmin;
+    font-size: 2vmin;
+    background-color: rgb(138, 255, 5);
+    color: white;
+}
+
+.histoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 70vmin;
+    width: 70vmin;
+}
+
+.boxs {
+    background-color: aquamarine;
+    height: 65vmin;
+    width: 65vmin;
+    border-radius: 5vmin;
+    opacity: 0.5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    background-color: rgb(165, 29, 29);
+    border-radius: 5vmin;
+    color: rgb(199, 113, 113);
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.Task1, .Task2,.Task3, .Task4, .Task5 {
+    height: 10vmin;
+    width: 50vmin;
+    background-color: #ffffff;
+    color: black;
+    font-size: 3vmin;
+    border-radius: 2vmin;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor:pointer;
+}
+
+#icon {
+    color: blue;
+    position:absolute;
+    margin-left: 42vmin;
+    font-size: 4vmin;
+}
