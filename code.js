@@ -29,6 +29,7 @@ const task1msg = (inputValue) => {
     let icon = Task1.querySelector(".icon");
     icon.addEventListener("click", () => {
         alert("Task 1  is Done.");
+        Task1.innerHTML = inputValue + "<div class='complet-msg'>  Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
         console.log("cilck icon");
     })
 }
@@ -43,6 +44,8 @@ const task2msg = (inputValue) => {
     let icon = Task2.querySelector(".icon");
     icon.addEventListener("click", () => {
         alert("Task 2 is Done.");
+        Task2.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
+
         console.log("cilck icon");
     })
 }
@@ -56,6 +59,7 @@ const task3msg = (inputValue) => {
     let icon = Task3.querySelector(".icon");
     icon.addEventListener("click", () => {
         alert("Task 3 is Done.");
+        Task3.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
         console.log("cilck icon");
     })
 }
@@ -69,6 +73,7 @@ const task4msg = (inputValue) => {
     let icon = Task4.querySelector(".icon");
     icon.addEventListener("click", () => {
     alert("Task 4 is Done.");
+    Task4.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
     console.log("cilck icon");
     })
 
@@ -83,6 +88,7 @@ const task5msg = (inputValue) => {
     let icon = Task5.querySelector(".icon");
     icon.addEventListener("click", () => {
     alert("Task 5 is Done.");
+    Task5.innerHTML = inputValue + "<div class='complet-msg'>  Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
     console.log("cilck icon");
     })
 

@@ -118,3 +118,7 @@ border-radius: 5vmin;
     transition:transform 0.5s ease ;
     transform:rotateY(360deg) ;
 }
+
+.complet-msg {
+    color: blue;
+}
