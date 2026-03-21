@@ -28,9 +28,9 @@ const task1msg = (inputValue) => {
     Task1.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
     let icon = Task1.querySelector(".icon");
     icon.addEventListener("click", () => {
-        alert("Task 1  is Done.");
+        if(confirm(inputValue +" is Done?")) {
         Task1.innerHTML = inputValue + "<div class='complet-msg'>  Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
-        console.log("cilck icon");
+        }
     })
 }
 }
@@ -43,10 +43,9 @@ const task2msg = (inputValue) => {
     Task2.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
     let icon = Task2.querySelector(".icon");
     icon.addEventListener("click", () => {
-        alert("Task 2 is Done.");
+        if(confirm(inputValue +" is Done?")) {
         Task2.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
-
-        console.log("cilck icon");
+        }
     })
 }
 }
@@ -58,9 +57,9 @@ const task3msg = (inputValue) => {
     Task3.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
     let icon = Task3.querySelector(".icon");
     icon.addEventListener("click", () => {
-        alert("Task 3 is Done.");
+        if(confirm(inputValue +" is Done?")) {
         Task3.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
-        console.log("cilck icon");
+        }
     })
 }
 }
@@ -72,9 +71,9 @@ const task4msg = (inputValue) => {
     Task4.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
     let icon = Task4.querySelector(".icon");
     icon.addEventListener("click", () => {
-    alert("Task 4 is Done.");
+    if(confirm(inputValue +" is Done?")) {
     Task4.innerHTML = inputValue + "<div class='complet-msg'> Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
-    console.log("cilck icon");
+    }
     })
 
 }
@@ -87,9 +86,9 @@ const task5msg = (inputValue) => {
     Task5.innerHTML = inputValue + `<i class="fa-solid fa-circle-check icon "></i>`;
     let icon = Task5.querySelector(".icon");
     icon.addEventListener("click", () => {
-    alert("Task 5 is Done.");
+    if(confirm(inputValue +" is Done?")) {
     Task5.innerHTML = inputValue + "<div class='complet-msg'>  Complet </div>" + `<i class="fa-solid fa-circle-check icon "></i>`;
-    console.log("cilck icon");
+    }
     })
 
 }
@@ -118,9 +117,3 @@ addBtn.addEventListener("click", function() {
     }
     reset();
   });
-
-
-    
-
-
-

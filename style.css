@@ -10,9 +10,13 @@
     background-color:#547792;
 }
 
+#heading-msg {
+    cursor:default;
+}
+
 .mainbody {
     background-color: #FFC570;
-    height: 90vmin;
+    height: 94vh;
     display: flex;
     justify-content: center;
     align-items: center;
